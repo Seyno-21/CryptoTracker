@@ -14,7 +14,7 @@ namespace CryptoTrackerV2.Droid
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            AppCenter.Start("android={c300ca19-b172-4e8a-872e-e432b8b9fd6b};",
+            AppCenter.Start("android=c300ca19-b172-4e8a-872e-e432b8b9fd6b",
                   typeof(Analytics), typeof(Crashes));
             base.OnCreate(savedInstanceState);
 
